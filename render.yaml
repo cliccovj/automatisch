@@ -98,6 +98,7 @@ services:
     maxmemoryPolicy: noeviction
 databases:
   - name: automatisch-database
+    plan: free
     databaseName: automatisch
 envVarGroups:
   - name: common-env-vars
